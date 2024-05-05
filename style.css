@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+
+    /* background-color: aqua; */
+
+}
+/* navebar */
+nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+}
+#left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5%;
+    width: 25%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+#left-nav img{
+    height: 50%;
+}
+#center-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    /* padding: 0% 10%; */
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+}
+#center-nav a{
+    font-family: Product Sans;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+
+}
+#right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+    width: 25%;
+    height: 100%;
+    /* background-color: tomato; */
+}
+/* navebar end */
+.btn{
+    font-family: Product Sans;
+    padding: 12px 28px;
+    background-color: #222;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 18px;
+}
+/* part 1 start */
+#part-1{
+    display: flex;
+    width: 100%;
+    height:70%;
+     /* background-color: yellow;  */
+}
+.left-part-1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 13%;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+}
+.left-part-1 h1{
+    font-size: 50px;
+    font-family: Product Sans;
+}
+.left-part-1 p{
+    /* padding-right:18%; */
+    font-size: 25px;
+    font-family:Product Sans ;
+}
+span{
+    color: red;
+}
+#left-button1{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#btn-2{
+    background-color: transparent;
+    border: 1px solid black;
+    color: #222;
+}
+
+.right-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 20%; */
+    width: 50%;
+    height: 100%;
+    /* background-color:red; */
+}
+/* part- end */
+
+.part-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    height: 20%;
+    width: 100%;
+    
+    
+    /* background-color: yellow; */
+}
+.part-2 p{
+    padding-left: 5%;
+    font-size: 20px;
+    color: #333;
+    font-family: Product Sans;
+}
+.images-brand{
+    display: flex;
+    align-items: center;
+    justify-content:space-around   ;
+    padding-left: 8%;
+    padding-right: 5%;
+    width: 100%;
+    height: 60%;
+    /* background-color: tomato; */
+}
+.images-brand img{
+    width: 8%;
+}
